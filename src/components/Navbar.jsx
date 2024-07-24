@@ -77,7 +77,7 @@ const Navbar = () => {
                 {showName && (
                     <h3 onClick={toggleNameVisibility} className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold cursor-pointer'>
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-600 to-blue-400'>
-                            Mirlan Nurbekov TESSSSST
+                            Salymbekov University the International College of IT and Business
                         </span>
                     </h3>
                 )}
