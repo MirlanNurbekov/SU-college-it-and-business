@@ -21,9 +21,9 @@ const ConnectSection = () => {
       id="contact"
       className="flex flex-col items-center justify-center my-12 py-4"
     >
-      {/* Removed unnecessary grid and absolute positioning */}
-      <h5 className="text-xl font-bold text-white my-2 text-center">
-        It would be my pleasure to work with you
+      <div className="w-1/2 h-1 bg-blue-800 mx-auto"></div>
+      <h5 className="text-xl font-bold text-black my-2 text-center">
+        Contact
       </h5>
       <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-center'>
       I am currently in the market for new professional engagements and am keen to explore opportunities that align with my expertise in full-stack web development. 
