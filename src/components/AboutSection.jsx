@@ -12,13 +12,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>C# ASP.Net MVC</li>
-        <li>Node.js</li>
-        <li>JavaScript</li>
-        <li>Blazor.NET</li>
-        <li>React JS</li>
-        <li>SQL Expertise</li>
-        <li>Python</li>
+        <li>Good</li>
       </ul>
     ),
   },
@@ -27,12 +21,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Degree - Bachelor of Science with Honours in Computing 3+0, COVENTRY UNIVERSITY, Coventry, UK (August 2018 - March 2021)</li>
+        <li>Good</li>
         <br>
         </br>
-        <li>Diploma - Electrical and Electronic Engineering, INTI UNIVERSITY, Penang, Malaysia (August 2015 - August 2017)</li>
-        <br>
-        </br>
+      
     </ul>
     ),
   },
@@ -41,15 +33,10 @@ const TAB_DATA = [
     id: "workexperience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Web Development Lecturer / Projects and events manager - International College of IT and Business Salymbekov University, Bishkek, Kyrgyzstan  (Feb 2024 - Present)</li>
+        <li>Good</li>
         <br>
         </br>
-        <li>Software Engineer - Zentrek technologies Sdn Bhd ,Penang, Malaysia (Feb 2019 - June 2023)</li>
-        <br>
-        </br>
-        <li>Electronic Engineer - Cincaria Sdn Bhd ,Penang, Malaysia (Jan 2017 - Jan 2019)</li>
-        <br>
-        </br>
+       
       </ul>
     ),
   },
@@ -58,17 +45,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>1st place in JABIL GBS competition “LEADING THE DIGITAL FUTURE” Penang, Malaysia (11-15/09/2022) 
-          Role - Team leader</li>
-          <br></br>
-        <li>2nd place in INTI-USC Competition in the Business Service Sector (20-23/10/2021)
-          Role - App developer</li>
-          <br></br>
-          <li>
-          Outstanding Contribution Award as a Student Ambassador - organized and hosted several workshops and events Penang, Malaysia(03/2016 - 12/2021)
-          Role - Student Ambassador
-          </li>
-          <br></br>
+        <li>Good</li>
+          
 
       </ul>
     ),
@@ -86,19 +64,22 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-
+    <section className="text-black" id="about">
+<br/>
+<div className="w-4/5 h-1 bg-blue-800 mx-auto"></div>
+<h1 className="text-black text-lg md:text-xl lg:text-2xl font-bold text-center">
+   About our College
+        </h1>
       
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-4 px-4 xl:gap-16 sm:py-16 xl:px-16">
       
-      <Image src="/images/about-image.png" width={500} height={500} />
+      <Image src="/images/hero-image.jpeg" width={500} height={500} />
      
         <div className="mt-4 md:mt-20 text-left flex flex-col h-full">
           
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-black mb-4">SU</h2>
           <p className="text-base lg:text-lg">
-          I am a Full Stack Web Developer, specializing in crafting interactive and responsive web applications. My technical toolkit includes C# ASP.Net MVC, JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS, and Git. 
-          My collaborative spirit drives me to partner effectively with teams to deliver exceptional software solutions.
+          SU
           </p>
           <br/>
           <div className="flex flex-row justify-start mt-3">
@@ -107,21 +88,21 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Information{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Opportunities{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("workexperience")}
               active={tab === "workexperience"}
             >
               {" "}
-              Work Eperience{" "}
+              Employees{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}

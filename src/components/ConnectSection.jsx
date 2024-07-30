@@ -26,10 +26,7 @@ const ConnectSection = () => {
         Contact
       </h5>
       <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-center'>
-      I am currently in the market for new professional engagements and am keen to explore opportunities that align with my expertise in full-stack web development. 
-        I am readily available for discussions and can be reached through the contact methods listed in my portfolio. I welcome prospective employers to reach out to discuss 
-        potential collaborations. Additionally, I encourage you to view my professional profile on various social media platforms to gain further insight into my professional background 
-        and industry contributions. Your consideration is greatly appreciated, and I look forward to the possibility of contributing to your team success.
+     SU contacts
       </p>
       <div className="flex flex-row gap-2 justify-center">
         {/* Centered social icons */}

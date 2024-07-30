@@ -16,27 +16,25 @@ const HeroSection = () => {
       </div>
       <div className="flex justify-center gap-8">
         <Link href="https://newinti.edu.my/" passHref>
-            <Image 
-              src="/images/INTI.png" 
-              alt="INTI University" 
-              width={800} 
-              height={300} 
-              objectFit="contain" 
-            />
+          <Image 
+            src="/images/INTI.png" 
+            alt="INTI University" 
+            width={800} 
+            height={300} 
+            className="image-frame"
+          />
         </Link>
         <p className='text-[#000000] text-base md:text-lg lg:text-xl mb-6 text-center'>
-        The International College of IT and Business at Salymbekov University offers a unique opportunity to earn a dual diploma from Malaysia, either from INTI International University or Lincoln University.
+          The International College of IT and Business at Salymbekov University offers a unique opportunity to earn a dual diploma from Malaysia, either from INTI International University or Lincoln University.
         </p>
         <Link href="https://lincoln.edu.my/" passHref>
-          
-            <Image 
-              src="/images/Lincoln.png" 
-              alt="Lincoln University" 
-              width={800} 
-              height={300} 
-              objectFit="contain" 
-            />
-         
+          <Image 
+            src="/images/Lincoln.png" 
+            alt="Lincoln University" 
+            width={800} 
+            height={300} 
+            className="image-frame"
+          />
         </Link>
       </div>
     </section>

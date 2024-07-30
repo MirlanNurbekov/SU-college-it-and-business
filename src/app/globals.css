@@ -27,9 +27,16 @@ body {
 }
 
 .main-hero-img {
-  border-radius: 50%;
+  border-radius: 10%;
   
 }
-
+.image-frame {
+  width: 850px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  border: 1px solid #000; /* Adjust the color and width of the frame */
+  padding: 0px; /* Optional: Add padding inside the border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  object-fit: cover; /* Ensures the image covers the frame without distortion */
+}
 
 /* For the social icons */
