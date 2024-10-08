@@ -20,7 +20,7 @@ const HeroSection = () => {
             src="/images/INTI.png" 
             alt="INTI University" 
             width={800} 
-            height={300} 
+            height={400} 
             className="image-frame"
           />
         </Link>
@@ -32,7 +32,7 @@ const HeroSection = () => {
             src="/images/Lincoln.png" 
             alt="Lincoln University" 
             width={800} 
-            height={300} 
+            height={400} 
             className="image-frame"
           />
         </Link>

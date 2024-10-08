@@ -7,8 +7,12 @@ import ProjectsSection from '@/components/ProjectsSection';
 import ConnectSection from '@/components/ConnectSection';
 import FaqSection from '@/components/FaqSection';
 import Carousel from '@/components/Carousel';
+import SpeachArea from '@/components/SpeachArea';
+import HowToenroll from '@/components/HowToenroll';
 import Footer from '@/components/Footer';
 import TestingZone from '@/components/TestingZone';
+
+
 
 
 export default function Home() {
@@ -24,10 +28,11 @@ export default function Home() {
 
         <Carousel />
         <HeroSection/>
+        <SpeachArea/>
         <AboutSection/>
         
         <br/>
-        
+        <HowToenroll/>
         <FaqSection/>
         <ConnectSection/>
       </div>

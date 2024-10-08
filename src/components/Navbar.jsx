@@ -13,7 +13,7 @@ const navLinks = [
     },
     {
         title: "Applying",
-        path: "#projects",
+        path: "#howtoenroll",
     },
     {
         title: "FAQ",
